@@ -4,13 +4,12 @@ PortSystem 1.0
 PortGroup select 1.0
 PortGroup compiler_blacklist_versions 1.0
 
-name                gcc7
+name                gcc8
+subport             libgcc-devel {}
 
-epoch               1
-version             7-20170622
-revision            1
-checksums           rmd160 3d76314a5756475353bb47d6a42d461f13004bc3 \
-                    sha256 484c22ecd1e5f3fe33bccc1d03ea93d5eb5a78b7b221c7bac47166d9c2d4fe15
+version             8-20170827
+checksums           rmd160  a4a23d97d917f17eff4d0455e03f858cb20e9a59 \
+                    sha256  36a7d5357d7aa50d252fdd34d8020061e92162cf1c54ad23d8d1c39e4b773da9
 
 platforms           darwin
 categories          lang
